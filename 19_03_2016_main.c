@@ -19,7 +19,7 @@ int main()
 	int kSaat;
 	int kDakika;
 	
-	//  1 - kullanıcıdan d.tarihini al
+	//  1 - kullanÄ±cÄ±dan d.tarihini al
 	printf("D.tarihinizin gun kismi: ");
 	scanf_s("%d", &gun);
 	printf("D.tarihinizin ay kismi: ");
@@ -48,7 +48,7 @@ int main()
 	kSaat = kGun * 24;
 	kDakika = kSaat * 60;
 
-	// 3 - yukarda bulduklarını ekrana yaz
+	// 3 - yukarda bulduklarÄ±nÄ± ekrana yaz
 	printf("Toplam, \n");
 	printf("\t %d yil\n",kYil);
 	printf("\t %d ay\n", kAy);
